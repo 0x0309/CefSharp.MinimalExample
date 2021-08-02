@@ -51,6 +51,9 @@ namespace CefSharp.MinimalExample.OffScreen
             // you will get a crash when closing.
             Cef.Shutdown();
 
+            Console.WriteLine("Cef shutdown");
+            Console.ReadLine();
+
             return 0;
         }
 
